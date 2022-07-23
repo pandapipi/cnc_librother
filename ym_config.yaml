@@ -1,0 +1,37 @@
+#mast bloaname :A
+DischargeMachine:
+  ID: 1
+  BlockName: A
+  Bord: 115200
+  DataLongth: 1
+  Port: COM2
+  Startadd: 0
+  Channal: 3
+  PWM_LOW: 100
+  PWM_HIGH: 2000
+  PulseVotageSwitch: 10
+MoveMachine:
+  ID: 1
+  BlockName: A
+  Bord: 115200
+  DataLongth: 5
+  Port: COM2
+  Startadd: 0
+RelayMachine:
+  ID: 128
+  BlockName: A
+  Bord: 115200
+  DataLongth: 16
+  Port: COM9
+  Startadd: 0
+  RelayDefine:
+    SW_FirstPower: 1,0
+    SW_AlarmPowver: 2,0
+    SW_Oile: 3,0
+TouchTestMachine:
+  ID: 1
+  BlockName: A
+  Bord: 115200
+  DataLongth: 5
+  Port: COM2
+  Startadd: 0
